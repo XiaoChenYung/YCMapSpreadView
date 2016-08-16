@@ -15,6 +15,8 @@
 		92621E211D62AEC600800B8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92621E1F1D62AEC600800B8E /* LaunchScreen.storyboard */; };
 		92621E2C1D62AEC600800B8E /* YCMapSpreadViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 92621E2B1D62AEC600800B8E /* YCMapSpreadViewTests.m */; };
 		92621E371D62AEC600800B8E /* YCMapSpreadViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 92621E361D62AEC600800B8E /* YCMapSpreadViewUITests.m */; };
+		92A58CE91D62B54300B5BD54 /* YCMapSpreadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 92A58CE81D62B54300B5BD54 /* YCMapSpreadView.m */; };
+		92A58CEC1D62B72C00B5BD54 /* YCMapSpreadView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 92A58CEB1D62B72C00B5BD54 /* YCMapSpreadView.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		92621E321D62AEC600800B8E /* YCMapSpreadViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YCMapSpreadViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		92621E361D62AEC600800B8E /* YCMapSpreadViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCMapSpreadViewUITests.m; sourceTree = "<group>"; };
 		92621E381D62AEC600800B8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92A58CE71D62B54300B5BD54 /* YCMapSpreadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCMapSpreadView.h; sourceTree = "<group>"; };
+		92A58CE81D62B54300B5BD54 /* YCMapSpreadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCMapSpreadView.m; sourceTree = "<group>"; };
+		92A58CEB1D62B72C00B5BD54 /* YCMapSpreadView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = YCMapSpreadView.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +106,7 @@
 		92621E101D62AEC600800B8E /* YCMapSpreadView */ = {
 			isa = PBXGroup;
 			children = (
+				92A58CE61D62B2B100B5BD54 /* YCMapSpreadView */,
 				92621E141D62AEC600800B8E /* AppDelegate.h */,
 				92621E151D62AEC600800B8E /* AppDelegate.m */,
 				92621E171D62AEC600800B8E /* ViewController.h */,
@@ -138,6 +144,24 @@
 				92621E381D62AEC600800B8E /* Info.plist */,
 			);
 			path = YCMapSpreadViewUITests;
+			sourceTree = "<group>";
+		};
+		92A58CE61D62B2B100B5BD54 /* YCMapSpreadView */ = {
+			isa = PBXGroup;
+			children = (
+				92A58CE71D62B54300B5BD54 /* YCMapSpreadView.h */,
+				92A58CE81D62B54300B5BD54 /* YCMapSpreadView.m */,
+				92A58CEA1D62B71600B5BD54 /* sourcefiles */,
+			);
+			path = YCMapSpreadView;
+			sourceTree = "<group>";
+		};
+		92A58CEA1D62B71600B5BD54 /* sourcefiles */ = {
+			isa = PBXGroup;
+			children = (
+				92A58CEB1D62B72C00B5BD54 /* YCMapSpreadView.bundle */,
+			);
+			name = sourcefiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,6 +269,7 @@
 			files = (
 				92621E211D62AEC600800B8E /* LaunchScreen.storyboard in Resources */,
 				92621E1E1D62AEC600800B8E /* Assets.xcassets in Resources */,
+				92A58CEC1D62B72C00B5BD54 /* YCMapSpreadView.bundle in Resources */,
 				92621E1C1D62AEC600800B8E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +295,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92A58CE91D62B54300B5BD54 /* YCMapSpreadView.m in Sources */,
 				92621E191D62AEC600800B8E /* ViewController.m in Sources */,
 				92621E161D62AEC600800B8E /* AppDelegate.m in Sources */,
 				92621E131D62AEC600800B8E /* main.m in Sources */,
@@ -496,6 +522,7 @@
 				92621E3D1D62AEC600800B8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		92621E3E1D62AEC600800B8E /* Build configuration list for PBXNativeTarget "YCMapSpreadViewTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +531,7 @@
 				92621E401D62AEC600800B8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		92621E411D62AEC600800B8E /* Build configuration list for PBXNativeTarget "YCMapSpreadViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +540,7 @@
 				92621E431D62AEC600800B8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
