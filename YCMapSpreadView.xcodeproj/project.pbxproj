@@ -17,6 +17,7 @@
 		92621E371D62AEC600800B8E /* YCMapSpreadViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 92621E361D62AEC600800B8E /* YCMapSpreadViewUITests.m */; };
 		92A58CE91D62B54300B5BD54 /* YCMapSpreadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 92A58CE81D62B54300B5BD54 /* YCMapSpreadView.m */; };
 		92A58CEC1D62B72C00B5BD54 /* YCMapSpreadView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 92A58CEB1D62B72C00B5BD54 /* YCMapSpreadView.bundle */; };
+		92A58D091D62C51F00B5BD54 /* NSBundle+YCMapSpreadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 92A58D081D62C51F00B5BD54 /* NSBundle+YCMapSpreadView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		92A58CE71D62B54300B5BD54 /* YCMapSpreadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCMapSpreadView.h; sourceTree = "<group>"; };
 		92A58CE81D62B54300B5BD54 /* YCMapSpreadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCMapSpreadView.m; sourceTree = "<group>"; };
 		92A58CEB1D62B72C00B5BD54 /* YCMapSpreadView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = YCMapSpreadView.bundle; sourceTree = "<group>"; };
+		92A58D071D62C51F00B5BD54 /* NSBundle+YCMapSpreadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+YCMapSpreadView.h"; sourceTree = "<group>"; };
+		92A58D081D62C51F00B5BD54 /* NSBundle+YCMapSpreadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+YCMapSpreadView.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +154,8 @@
 			children = (
 				92A58CE71D62B54300B5BD54 /* YCMapSpreadView.h */,
 				92A58CE81D62B54300B5BD54 /* YCMapSpreadView.m */,
+				92A58D071D62C51F00B5BD54 /* NSBundle+YCMapSpreadView.h */,
+				92A58D081D62C51F00B5BD54 /* NSBundle+YCMapSpreadView.m */,
 				92A58CEA1D62B71600B5BD54 /* sourcefiles */,
 			);
 			path = YCMapSpreadView;
@@ -296,6 +301,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				92A58CE91D62B54300B5BD54 /* YCMapSpreadView.m in Sources */,
+				92A58D091D62C51F00B5BD54 /* NSBundle+YCMapSpreadView.m in Sources */,
 				92621E191D62AEC600800B8E /* ViewController.m in Sources */,
 				92621E161D62AEC600800B8E /* AppDelegate.m in Sources */,
 				92621E131D62AEC600800B8E /* main.m in Sources */,
