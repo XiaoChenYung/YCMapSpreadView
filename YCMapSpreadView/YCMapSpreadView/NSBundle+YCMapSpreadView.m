@@ -25,6 +25,7 @@
     if (arrowImage == nil) {
         arrowImage = [[UIImage imageWithContentsOfFile:[[self mapSpreadView_Bundle] pathForResource:@"in_circle_Image" ofType:@"png"]] imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate];
     }
+    arrowImage = [arrowImage imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     return arrowImage;
 }
 
@@ -34,6 +35,7 @@
     if (arrowImage == nil) {
         arrowImage = [[UIImage imageWithContentsOfFile:[[self mapSpreadView_Bundle] pathForResource:@"out_circle_Image" ofType:@"png"]] imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate];
     }
+    arrowImage = [arrowImage imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     return arrowImage;
 }
 
@@ -43,6 +45,7 @@
     if (arrowImage == nil) {
         arrowImage = [[UIImage imageWithContentsOfFile:[[self mapSpreadView_Bundle] pathForResource:@"spread_circle_Image" ofType:@"png"]] imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate];
     }
+    arrowImage = [arrowImage imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     return arrowImage;
 }
 @end

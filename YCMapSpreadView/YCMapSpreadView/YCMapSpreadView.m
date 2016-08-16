@@ -22,7 +22,7 @@
     self = [super initWithFrame:frame];
     if (self) {
         [self setupLocView];
-        _spreadImageView.frame = CGRectMake( frame.size.width / 2, frame.size.height / 2, frame.size.width * 2, frame.size.height * 2);
+        _spreadImageView.frame = CGRectMake( -frame.size.width / 2, -frame.size.height / 2, frame.size.width * 2, frame.size.height * 2);
         _outImageView.frame = CGRectMake( 0, 0, frame.size.width / 2.5, frame.size.height / 2.5);
         _outImageView.center = _spreadImageView.center;
         _inImageView.frame = CGRectMake( 0, 0, frame.size.width / 4, frame.size.height / 4);
@@ -43,7 +43,7 @@
 
 - (void)layoutSubviews {
     [super layoutSubviews];
-    _spreadImageView.frame = CGRectMake( self.bounds.size.width / 2, self.bounds.size.height / 2, self.bounds.size.width * 2, self.bounds.size.height * 2);
+    _spreadImageView.frame = CGRectMake( -self.bounds.size.width / 2, -self.bounds.size.height / 2, self.bounds.size.width * 2, self.bounds.size.height * 2);
     _outImageView.frame = CGRectMake( 0, 0, self.bounds.size.width / 2.5, self.bounds.size.height / 2.5);
     _outImageView.center = _spreadImageView.center;
     _inImageView.frame = CGRectMake( 0, 0, self.bounds.size.width / 4, self.bounds.size.height / 4);
@@ -89,6 +89,7 @@
     _inImageView.image = [NSBundle in_circle_Image];
     [_inImageView.layer addAnimation:anim forKey:nil];
     [self addSubview:_inImageView];
+    
 }
 
 @end
