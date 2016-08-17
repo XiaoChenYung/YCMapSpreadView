@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "YCMapSpreadView.h"
 @interface ViewController ()
 
 @end
@@ -16,6 +16,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    YCMapSpreadView *mapView = [[YCMapSpreadView alloc] initWithFrame:CGRectMake(0, 0, 100, 100)];
+    [self.view addSubview:mapView];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
