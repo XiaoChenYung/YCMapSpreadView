@@ -5,6 +5,8 @@ YCMapSpreadView
 
 YCMapSpreadView is an animation view like baidu map or gaode map app.
 
+一款仿百度地图和高德地图定位动画的View，使用核心动画封装
+
 ## Screenshots
 ![image](https://github.com/XiaoChenYung/YCMapSpreadView/blob/master/images/gaode.PNG)
 ![image](https://github.com/XiaoChenYung/YCMapSpreadView/blob/master/images/mapView.png)
