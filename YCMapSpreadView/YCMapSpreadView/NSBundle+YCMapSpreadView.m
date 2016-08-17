@@ -18,7 +18,13 @@
     }
     return refreshBundle;
 }
-
+/**
+ *  @author 杨晓晨, 16-08-17 14:08:58
+ *
+ *  获取最里面的红色圆环
+ *
+ *  @return <#return value description#>
+ */
 + (UIImage *)in_circle_Image
 {
     static UIImage *arrowImage = nil;
@@ -28,7 +34,13 @@
     arrowImage = [arrowImage imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     return arrowImage;
 }
-
+/**
+ *  @author 杨晓晨, 16-08-17 14:08:20
+ *
+ *  白色圆环
+ *
+ *  @return <#return value description#>
+ */
 + (UIImage *)out_circle_Image
 {
     static UIImage *arrowImage = nil;
@@ -38,7 +50,13 @@
     arrowImage = [arrowImage imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     return arrowImage;
 }
-
+/**
+ *  @author 杨晓晨, 16-08-17 14:08:32
+ *
+ *  最外层扩展
+ *
+ *  @return <#return value description#>
+ */
 + (UIImage *)spread_circle_Image
 {
     static UIImage *arrowImage = nil;
