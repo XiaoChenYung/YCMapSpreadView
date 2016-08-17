@@ -6,8 +6,8 @@ YCMapSpreadView
 YCMapSpreadView is an animation view like baidu map or gaode map app.
 
 ## Screenshots
-![image](https://github.com/xhzengAIB/LearnEnglish/raw/master/Screenshots/XHSinaMenuViewExample.gif)
-
+![image](https://github.com/XiaoChenYung/YCMapSpreadView/blob/master/images/gaode.PNG)
+![image](https://github.com/XiaoChenYung/YCMapSpreadView/blob/master/images/mapView.png)
 ## Installation
 
 With [CocoaPods](http://cocoapods.org/), add this line to your `Podfile`.
@@ -27,7 +27,7 @@ YCMapSpreadView *mapView = [[YCMapSpreadView alloc] initWithFrame:CGRectMake(0, 
 
 ```
 ###SB
-![image](https://github.com/xhzengAIB/LearnEnglish/raw/master/Screenshots/XHSinaMenuViewExample.gif)
+![image](https://github.com/XiaoChenYung/YCMapSpreadView/blob/master/images/SBPic.png)
 ## Requirements
 
 * iOS 7.0+ 
