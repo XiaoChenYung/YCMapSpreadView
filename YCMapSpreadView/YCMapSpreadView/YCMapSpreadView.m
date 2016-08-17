@@ -58,7 +58,7 @@
     anim.duration = 6;
     anim.removedOnCompletion = NO;
     anim.repeatCount = MAXFLOAT;
-    
+    //最外层view缩放
     CAKeyframeAnimation* animscale=[CAKeyframeAnimation animation];
     animscale.keyPath=@"transform.scale";
     animscale.values=@[@(0.01), @(0.4), @(0.70), @(0.80),@(0.90),@(1)];
@@ -66,7 +66,7 @@
     animscale.duration=3;
     animscale.removedOnCompletion = NO;
     animscale.repeatCount = MAXFLOAT;
-    
+    //透明度变化
     CAKeyframeAnimation* animin=[CAKeyframeAnimation animation];
     animin.keyPath=@"opacity";
     animin.values=@[@(1), @(0.9), @(0.5), @(0.2),@(0.02),@(0.01)];
