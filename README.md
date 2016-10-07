@@ -3,7 +3,7 @@ YCMapSpreadView
 
 ![Platform](https://img.shields.io/cocoapods/p/TWPhotoPicker.svg)
 
-YCMapSpreadView is an animation view like baidu map or gaode map app.
+YCMapSpreadView is an animation view like baidu map or GaoDe map app.
 
 一款仿百度地图和高德地图定位动画的View，使用核心动画封装.
 
